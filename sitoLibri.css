@@ -1,3 +1,195 @@
-.page {
-    color:red;
+table
+    {
+        border: 2px solid rgb(99, 9, 173);
+        border-radius: 10px; 
+        background-color: #eedffd;
+        font-size: 30px;
+        box-shadow: 2px 2px 10px rgba(99, 9, 173, 0.15);
+        margin: 30px auto;
+    }
+td
+    {
+        border: 2px solid rgb(99, 9, 173);
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px; 
+    }
+th
+    {   
+        border: 2px solid rgb(99, 9, 173);
+        color: rgb(99, 9, 173);
+        border-radius: 10px; 
+    }
+body
+    {
+        background-color:rgba(222, 187, 255, 0.694);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.fedor
+    {
+        background-color: #E2D6F5;
+        color: #4A3B7A;
+    }
+.george
+    {
+        background-color: #D8E6F2;
+        color: #2C5270;
+    }
+.silver
+    {
+        background-color:#DCECE0;
+        color: #2E5C3D;
+    }
+.golding
+    {
+        
+        background-color: #F2DDE6;
+        color:#7A2C4D;
+    }
+.mouawad
+    {
+        background-color: #F5E6D3;
+        color: #7A5320;
+    }
+.apuelio
+    {
+        background-color:#F5F0D3;
+        color: #6B5D1A;
+    }
+.letto
+    {
+        background-color: #C8E6C9;
+        color: #2E5B2E;
+    }
+.corso
+    {
+        background-color: #FFF3B0;
+        color: #7A6A00;
+    }
+.libreria
+    {
+        background-color: #D6C9F0;
+        color: #4A3B7A;
+    }
+.acquistare
+    {
+        background-color: #F0D9D9;
+        color: #8B4A4A;
+    }
+.prossimo
+    {
+        background-color: #C9E4F0;
+        color: #2E5878;
+    }   
+a
+    {
+        text-decoration: none;
+        color:black;
+    }
+.copertina 
+    {
+        border: 3px solid rgb(255, 255, 255);
+        max-width: 220px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(99, 9, 173, 0.3);
+    }
+hr 
+    {
+        border: none;
+        border-top: 2px solid rgb(99, 9, 173);
+        border-radius: 5px;
+    }
+.fedor hr 
+    {
+        border-top: 2px solid #4A3B7A;
+    }
+.george hr 
+    {
+        border-top: 2px solid #2C5270;
+    }
+.silver hr 
+    {
+        border-top: 2px solid #2E5C3D;
+    }
+.golding hr 
+    {
+        border-top: 2px solid #7A2C4D;
+    }
+.mouawad hr 
+    {
+        border-top: 2px solid #7A5320;
+    }
+.apuelio hr 
+    {
+        border-top: 2px solid #6B5D1A;
+    }
+
+h1,h4
+    {
+        margin-top: 30px;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+h3
+    {
+        margin-top: 30px;
+        font-style: italic;
+    }
+.valutazione
+    {
+        font-style:italic;
+        text-align: center;
+    }
+.citazione 
+    {
+        font-style: italic;
+        max-width: 500px;
+        color: black;
+    }
+.skip
+    {
+        text-align: center;
+        font-style: italic;
+        text-decoration:double underline;
+        text-decoration-color: rgb(99, 9, 173);
+        text-underline-offset: 2px;
+    }
+
+.motto 
+    {
+        font-style: italic;
+        color: rgb(99, 9, 173);
+    }
+.firma-sito 
+    {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 50px;
+        padding: 10px;
+        border-top: 1.5px solid rgba(99, 9, 173, 0.2);
+        color:rgba(197, 138, 252, 0.886);
+        background-color: #ffffff;
+    }
+.intro p
+    {
+        font-size: 24px;
+        max-width: 1500px;
+        margin: auto;
+        margin-bottom: 40px;
+        padding: 15px ;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(99, 9, 173, 0.15);
+        text-align: center;
+        line-height: 1.4;
+    }
+.paragrafo_basic
+{
+    color: black; 
+    max-width: 1500px;
+    font-size: 20px;
 }
