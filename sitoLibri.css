@@ -56,6 +56,26 @@ body
         background-color:#F5F0D3;
         color: #6B5D1A;
     }
+.scott
+    {
+        background-color:#D6EDEA;
+        color: #2C6E64;
+    }
+.jane
+    {
+        background-color:#E5DCE3;
+        color: #5C4356;
+    }
+.kafka
+    {
+        background-color: #C9B2A0;
+        color:#3F2E22;
+    }
+.niccolo
+    {
+        background-color: #F2CFC2;
+        color: #8A3D26;
+    }
 .letto
     {
         background-color: #C8E6C9;
@@ -125,14 +145,28 @@ hr
     {
         border-top: 2px solid #6B5D1A;
     }
-
+.scott hr  
+    {
+        border-top: 2px solid #2C6E64;
+    }
+.jane hr
+    {
+        border-top: 2px solid #5C4356;
+    }
+.kafka hr
+    {
+        border-top: 2px solid #3F2E22;
+    }
+.niccolo hr 
+    {
+        border-top: 2px solid #8A3D26;
+    }
 h1,h4
     {
-        margin-top: 30px;
+        margin-top: 20px;
         font-style: italic;
         text-align: center;
         margin-bottom: 0;
-        margin-top: 20px;
     }
 h3
     {
@@ -147,16 +181,37 @@ h3
 .citazione 
     {
         font-style: italic;
-        max-width: 500px;
+        font-size:22px;
+        max-width: 1300px;
         color: black;
     }
-.skip
+
+.paginazione 
+    {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        margin: 20px 0;
+        justify-content: center;
+        gap: 12px;
+    }
+.btn-pag 
     {
         text-align: center;
-        font-style: italic;
-        text-decoration:double underline;
-        text-decoration-color: rgb(99, 9, 173);
-        text-underline-offset: 2px;
+        padding: 10px 18px;
+        background-color:rgba(197, 138, 252, 0.886);
+        color: rgb(99, 9, 173);
+        text-decoration: none;
+        border-radius: 5px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.btn-pag:hover 
+    {
+        background-color:  rgb(87, 1, 157);
+        color: white;
     }
 
 .motto 
@@ -191,5 +246,5 @@ h3
 {
     color: black; 
     max-width: 1500px;
-    font-size: 20px;
+    font-size: 23px;
 }
