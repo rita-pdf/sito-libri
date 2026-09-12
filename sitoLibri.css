@@ -273,9 +273,15 @@ h3
     margin: 12px 0;
     padding: 0 6px;
   }
-  .paginazione,
-  .btn-pag {
+  .paginazione {
     font-size: 16px;
+    gap: 16px;
+  }
+  .btn-pag {
+    font-size: 24px;
+    padding: 16px 24px;
+    min-width: 60px;
+    min-height: 60px;
   }
   .firma-sito {
     font-size: 16px;
