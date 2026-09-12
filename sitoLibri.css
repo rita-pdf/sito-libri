@@ -243,8 +243,45 @@ h3
         line-height: 1.4;
     }
 .paragrafo_basic
-{
-    color: black; 
-    max-width: 1500px;
-    font-size: 23px;
+    {
+        color: black; 
+        max-width: 1500px;
+        font-size: 23px;
+    }
+
+@media (max-width: 600px) {
+    table {
+        font-size: 16px;
+    }
+    td {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .intro p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    .citazione {
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .paginazione,
+    .btn-pag {
+        font-size: 14px;
+    }
+    .firma-sito {
+        font-size: 15px;
+    }
+    .paragrafo_basic {
+        font-size: 15px;
+    }
+    .copertina {
+        max-width: 140px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
