@@ -280,8 +280,8 @@ h3
   .btn-pag {
     font-size: 24px;
     padding: 16px 24px;
-    min-width: 60px;
-    min-height: 60px;
+    min-width: 120px;
+    min-height: 120px;
   }
   .firma-sito {
     font-size: 16px;
@@ -291,7 +291,7 @@ h3
     max-width: 100%;
   }
   .copertina {
-    max-width: 240px;
+    max-width: 480px;
   }
   h1 {
     font-size: 32px;
